@@ -1,0 +1,5 @@
+edgetpu==1.9.2
+numpy==1.12.1
+picamera==1.13
+pigpio==1.38
+RPi.GPIO==0.6.5

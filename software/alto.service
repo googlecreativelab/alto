@@ -1,0 +1,13 @@
+[Unit]
+Description=Alto
+Requires=pigpiod
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/code/alto/app
+ExecStart=/usr/bin/python3 alto.py
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
